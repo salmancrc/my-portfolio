@@ -1,22 +1,22 @@
 export const siteConfig = {
-  name: "Naman Barkiya | Developer Portfolio",
-  authorName: "Naman Barkiya",
-  username: "namanbarkiya",
+  name: "Salman Ahmad | Developer Portfolio",
+  authorName: "Salman Ahmad",
+  username: "salmancrc",
   description:
-    "Naman Barkiya's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
+    "Salman Ahmad's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
   url: "https://nbarkiya.xyz",
   links: {
-    twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
+    twitter: "https://x.com/",
+    github: "https://github.com/salmancrc",
   },
   ogImage: "https://nbarkiya.xyz/profile-img.jpg",
   iconIco:
-    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
+    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/salman-favicon.ico",
   logoIcon:
-    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
+    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/salman-logo.png",
   keywords: [
-    "Naman Barkiya",
-    "Full Stack Developer",
+    "Salman Ahmad",
+    "Front-End Developer",
     "Web Developer Portfolio",
     "Next.js portfolio template",
     "React portfolio template",
@@ -25,7 +25,7 @@ export const siteConfig = {
     "Next.js template",
     "Modern portfolio website",
     "Frontend developer portfolio",
-    "Full stack developer portfolio",
+    "Front-End Developer portfolio",
     "Open source portfolio template",
     "Web developer portfolio template",
     "Responsive portfolio template",

@@ -25,7 +25,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 **Sections:**
 
-- **Introduction**: Presents the individual's name and role (e.g., "Full Stack Developer").
+- **Introduction**: Presents the individual's name and role (e.g., "Front-End Developer").
 - **Skills Overview**: Highlights key skills with a prompt to view all skills.
 - **Projects Highlights**: Summarizes notable technical projects with links to detailed descriptions.
 - **Experience Highlights**: Summarizes professional work experience with links to detailed descriptions.

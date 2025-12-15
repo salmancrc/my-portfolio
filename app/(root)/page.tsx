@@ -37,7 +37,7 @@ export default function IndexPage() {
     name: siteConfig.authorName,
     url: siteConfig.url,
     image: siteConfig.ogImage,
-    jobTitle: "Full Stack Developer",
+    jobTitle: "Front-End Developer",
     sameAs: [siteConfig.links.github, siteConfig.links.twitter],
   };
 
@@ -96,14 +96,14 @@ export default function IndexPage() {
             delay={0.4}
             className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
           >
-            Full Stack Developer
+            Front-End Developer
           </AnimatedText>
-          <div className="mt-4 max-w-[42rem] text-center">
+          {/* <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
               Open-source Next.js portfolio template. Fork this on GitHub to
               create your own developer portfolio.
             </p>
-          </div>
+          </div> */}
 
           <div className="flex flex-col mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
             <AnimatedText delay={0.6}>
@@ -132,9 +132,9 @@ export default function IndexPage() {
               </Link>
             </AnimatedText>
           </div>
-          <AnimatedText delay={1.2}>
+          {/* <AnimatedText delay={1.2}>
             <Icons.chevronDown className="h-6 w-6 mt-10" />
-          </AnimatedText>
+          </AnimatedText> */}
         </div>
       </section>
       <AnimatedSection
