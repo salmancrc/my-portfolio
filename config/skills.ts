@@ -9,13 +9,6 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
-    name: "Next.js",
-    description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
-    rating: 5,
-    icon: Icons.nextjs,
-  },
-  {
     name: "React",
     description:
       "Craft interactive user interfaces using components, state, props, and virtual DOM.",
@@ -23,39 +16,11 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.react,
   },
   {
-    name: "GraphQL",
+    name: "Next.js",
     description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
+      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
     rating: 5,
-    icon: Icons.express,
-  },
-  {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
-  },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
+    icon: Icons.nextjs,
   },
   {
     name: "Typescript",
@@ -86,11 +51,25 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.css3,
   },
   {
-    name: "React Native",
+    name: "Tailwind CSS",
     description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
+      "Design beautiful, modern websites faster with a utility-first CSS framework.",
+    rating: 5,
+    icon: Icons.tailwindcss,
+  },
+  {
+    name: "Material UI",
+    description:
+      "Create stunning and responsive UIs with a popular React UI framework.",
     rating: 4,
-    icon: Icons.react,
+    icon: Icons.mui,
+  },
+  {
+    name: "Bootstrap",
+    description:
+      "Quickly create responsive and appealing web designs using a popular CSS framework.",
+    rating: 2,
+    icon: Icons.bootstrap,
   },
   {
     name: "Angular",
@@ -107,40 +86,60 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.redux,
   },
   {
+    name: "Express.js",
+    description:
+      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
+    rating: 5,
+    icon: Icons.express,
+  },
+  {
     name: "Socket.io",
     description:
       "Enable real-time, bidirectional communication between clients and servers effortlessly.",
     rating: 3,
     icon: Icons.socketio,
   },
+  // {
+  //   name: "GraphQL",
+  //   description:
+  //     "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+  //   rating: 4,
+  //   icon: Icons.graphql,
+  // },
+  // {
+  //   name: "Nest.js",
+  //   description:
+  //     "Create scalable and modular applications with a progressive Node.js framework.",
+  //   rating: 4,
+  //   icon: Icons.nestjs,
+  // },
+  // {
+  //   name: "React Native",
+  //   description:
+  //     "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
+  //   rating: 4,
+  //   icon: Icons.react,
+  // },
+  // {
+  //   name: "AWS",
+  //   description:
+  //     "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
+  //   rating: 3,
+  //   icon: Icons.amazonaws,
+  // },
   {
-    name: "Material UI",
+    name: "Node.js",
     description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
-  {
-    name: "Tailwind CSS",
-    description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
+      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
     rating: 5,
-    icon: Icons.tailwindcss,
+    icon: Icons.nodejs,
   },
   {
-    name: "AWS",
+    name: "MongoDB",
     description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
-  {
-    name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
+      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
+    rating: 5,
+    icon: Icons.mongodb,
   },
   {
     name: "MySQL",
@@ -149,13 +148,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 2,
     icon: Icons.mysql,
   },
-  {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
-    icon: Icons.netlify,
-  },
+  // {
+  //   name: "Netlify",
+  //   description:
+  //     "Manage and organize relational databases efficiently for data-driven applications.",
+  //   rating: 4,
+  //   icon: Icons.netlify,
+  // },
 ];
 
 export const skills = skillsUnsorted
