@@ -35,16 +35,16 @@ export default function ProjectsPage() {
       label: "All",
       content: renderContent("all"),
     },
-    {
-      value: "personal",
-      label: "Personal",
-      content: renderContent("personal"),
-    },
-    {
-      value: "professional",
-      label: "Professional",
-      content: renderContent("professional"),
-    },
+    // {
+    //   value: "personal",
+    //   label: "Personal",
+    //   content: renderContent("personal"),
+    // },
+    // {
+    //   value: "professional",
+    //   label: "Professional",
+    //   content: renderContent("professional"),
+    // },
   ];
 
   return (
