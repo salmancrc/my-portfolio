@@ -1,6 +1,6 @@
 # Portfolio Website Navigation Overview
 
-This document outlines the navigation structure of the portfolio website [https://nbarkiya.xyz/](https://nbarkiya.xyz/), detailing each page and its primary sections to facilitate understanding and interaction.
+This document outlines the navigation structure of the portfolio website [https://salmanahmad.xyz/](https://salmanahmad.xyz/), detailing each page and its primary sections to facilitate understanding and interaction.
 
 ---
 
@@ -8,12 +8,12 @@ This document outlines the navigation structure of the portfolio website [https:
 
 The website's main navigation menu is accessible from all pages and includes the following links:
 
-1. **Home**: [https://nbarkiya.xyz/](https://nbarkiya.xyz/)
-2. **Skills**: [https://nbarkiya.xyz/skills](https://nbarkiya.xyz/skills)
-3. **Projects**: [https://nbarkiya.xyz/projects](https://nbarkiya.xyz/projects)
-4. **Experience**: [https://nbarkiya.xyz/experience](https://nbarkiya.xyz/experience)
-5. **Contributions**: [https://nbarkiya.xyz/contributions](https://nbarkiya.xyz/contributions)
-6. **Contact**: [https://nbarkiya.xyz/contact](https://nbarkiya.xyz/contact)
+1. **Home**: [https://salmanahmad.xyz/](https://salmanahmad.xyz/)
+2. **Skills**: [https://salmanahmad.xyz/skills](https://salmanahmad.xyz/skills)
+3. **Projects**: [https://salmanahmad.xyz/projects](https://salmanahmad.xyz/projects)
+4. **Experience**: [https://salmanahmad.xyz/experience](https://salmanahmad.xyz/experience)
+5. **Contributions**: [https://salmanahmad.xyz/contributions](https://salmanahmad.xyz/contributions)
+6. **Contact**: [https://salmanahmad.xyz/contact](https://salmanahmad.xyz/contact)
 
 ---
 
@@ -21,7 +21,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 1. Home
 
-**URL:** [https://nbarkiya.xyz/](https://nbarkiya.xyz/)
+**URL:** [https://salmanahmad.xyz/](https://salmanahmad.xyz/)
 
 **Sections:**
 
@@ -33,7 +33,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 2. Skills
 
-**URL:** [https://nbarkiya.xyz/skills](https://nbarkiya.xyz/skills)
+**URL:** [https://salmanahmad.xyz/skills](https://salmanahmad.xyz/skills)
 
 **Sections:**
 
@@ -41,7 +41,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 3. Projects
 
-**URL:** [https://nbarkiya.xyz/projects](https://nbarkiya.xyz/projects)
+**URL:** [https://salmanahmad.xyz/projects](https://salmanahmad.xyz/projects)
 
 **Sections:**
 
@@ -49,7 +49,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 4. Experience
 
-**URL:** [https://nbarkiya.xyz/experience](https://nbarkiya.xyz/experience)
+**URL:** [https://salmanahmad.xyz/experience](https://salmanahmad.xyz/experience)
 
 **Sections:**
 
@@ -57,7 +57,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 5. Contributions
 
-**URL:** [https://nbarkiya.xyz/contributions](https://nbarkiya.xyz/contributions)
+**URL:** [https://salmanahmad.xyz/contributions](https://salmanahmad.xyz/contributions)
 
 **Sections:**
 
@@ -65,7 +65,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 6. Contact
 
-**URL:** [https://nbarkiya.xyz/contact](https://nbarkiya.xyz/contact)
+**URL:** [https://salmanahmad.xyz/contact](https://salmanahmad.xyz/contact)
 
 **Sections:**
 
