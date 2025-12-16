@@ -22,7 +22,7 @@ import { cn } from "@/lib/utils";
 import profileImg from "@/public/profile-pic.png";
 
 export const metadata: Metadata = {
-  title: `${pagesConfig.home.metadata.title} | Modern Next.js Developer Portfolio Template`,
+  title: `${pagesConfig.home.metadata.title}`,
   description: `${pagesConfig.home.metadata.description} This open-source Next.js portfolio template is customizable to showcase your skills and projects.`,
   alternates: {
     canonical: siteConfig.url,
@@ -80,7 +80,7 @@ export default function IndexPage() {
             height={100}
             width={100}
             sizes="100vw"
-            className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-4 border-primary"
+            className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary"
             alt="Salman Ahmad - Front-End Developer Portfolio"
             priority
           />

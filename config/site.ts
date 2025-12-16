@@ -3,13 +3,13 @@ export const siteConfig = {
   authorName: "Salman Ahmad",
   username: "salmancrc",
   description:
-    "Salman Ahmad's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
-  url: "https://nbarkiya.xyz",
+    "Salman Ahmad's portfolio showcasing projects, skills, and experience as a Front-End Developer.",
+  url: "https://salmanahmad.xyz",
   links: {
     twitter: "https://x.com/",
     github: "https://github.com/salmancrc",
   },
-  ogImage: "https://nbarkiya.xyz/profile-img.jpg",
+  ogImage: "https://salmanahmad.xyz/profile-pic.png",
   iconIco:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/salman-favicon.ico",
   logoIcon:

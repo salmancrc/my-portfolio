@@ -39,27 +39,27 @@ export function ModeToggle() {
           <span>Dark</span>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
-        <DropdownMenuItem onClick={() => setTheme("retro")}>
+        {/* <DropdownMenuItem onClick={() => setTheme("retro")}>
           <Icons.retro className="mr-2 h-4 w-4" />
           <span>Retro</span>
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("cyberpunk")}>
+        </DropdownMenuItem> */}
+        {/* <DropdownMenuItem onClick={() => setTheme("cyberpunk")}>
           <Icons.cyberpunk className="mr-2 h-4 w-4" />
           <span>Cyberpunk</span>
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("paper")}>
+        </DropdownMenuItem> */}
+        {/* <DropdownMenuItem onClick={() => setTheme("paper")}>
           <Icons.paper className="mr-2 h-4 w-4" />
           <span>Paper</span>
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("aurora")}>
           <Icons.aurora className="mr-2 h-4 w-4" />
           <span>Aurora</span>
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("synthwave")}>
+        </DropdownMenuItem> */}
+        {/* <DropdownMenuItem onClick={() => setTheme("synthwave")}>
           <Icons.synthwave className="mr-2 h-4 w-4" />
           <span>Synthwave</span>
         </DropdownMenuItem>
-        <DropdownMenuSeparator />
+        <DropdownMenuSeparator /> */}
         <DropdownMenuItem onClick={() => setTheme("system")}>
           <Icons.laptop className="mr-2 h-4 w-4" />
           <span>System</span>
