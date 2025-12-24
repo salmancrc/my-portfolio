@@ -79,6 +79,13 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.angular,
   },
   {
+    name: "React Query",
+    description:
+      "Simplify data fetching and state management in React applications with ease.",
+    rating: 4,
+    icon: Icons.reactquery,
+  },
+  {
     name: "Redux",
     description:
       "Manage app state effectively using a predictable and centralized state container.",
@@ -99,13 +106,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 3,
     icon: Icons.socketio,
   },
-  // {
-  //   name: "GraphQL",
-  //   description:
-  //     "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-  //   rating: 4,
-  //   icon: Icons.graphql,
-  // },
+  {
+    name: "GraphQL",
+    description:
+      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+    rating: 4,
+    icon: Icons.graphql,
+  },
   // {
   //   name: "Nest.js",
   //   description:

@@ -12,6 +12,7 @@ export type ValidSkills =
   | "CSS 3"
   | "React Native"
   | "Angular"
+  | "React Query"
   | "Redux"
   | "Socket.io"
   | "Material UI"
