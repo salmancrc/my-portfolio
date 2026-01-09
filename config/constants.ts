@@ -14,6 +14,8 @@ export type ValidSkills =
   | "Angular"
   | "React Query"
   | "Redux"
+  | "Tailwind"
+  | "Ant Design"
   | "Socket.io"
   | "Material UI"
   | "Tailwind CSS"
