@@ -23,35 +23,43 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         />
       </div>
       <div className="pt-5 space-y-3">
-        <h5 className="text-2xl font-bold tracking-tight text-foreground">
+        <h5 className="text-xl font-bold tracking-tight text-foreground">
           {project.companyName}
         </h5>
         <p className="line-clamp-3 font-normal text-muted-foreground">
           {project.shortDescription}
         </p>
-        <div className="flex gap-2 flex-wrap">
+        <div className="flex gap-2 flex-wrap justify-between items-center">
           <ChipContainer textArr={project.category} />
+          {/* <Link href={`/projects/${project.id}`}>
+            <Button variant={"default"} className="mt-2">
+              Read more
+              <Icons.chevronRight className="w-4 ml-1" />
+            </Button>
+          </Link> */}
+
+          <div className="rounded-full bg-background p-1">
+            {project.websiteLink && (
+              <CustomTooltip text="Please note that some project links may be temporarily unavailable.">
+                <Link
+                  href={project.websiteLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center p-1 text-muted-foreground hover:text-foreground transition-colors"
+                  aria-label={`Open ${project.companyName} website in new tab`}
+                >
+                  <Icons.externalLink className="w-5 h-5" />
+                </Link>
+              </CustomTooltip>
+            )}
+          </div>
         </div>
-        <Link href={`/projects/${project.id}`}>
+        {/* <Link href={`/projects/${project.id}`}>
           <Button variant={"default"} className="mt-2">
             Read more
             <Icons.chevronRight className="w-4 ml-1" />
           </Button>
-        </Link>
-      </div>
-      <div className="absolute bottom-4 right-4 p-3 rounded-full bg-background">
-        {/* {project.type === "Personal" ? (
-          <Icons.userFill className="h-4 w-4" />
-        ) : (
-          <Icons.work className="h-4 w-4" />
-        )} */}
-        {project.websiteLink && (
-          <CustomTooltip text="Please note that some project links may be temporarily unavailable.">
-            <Link href={project.websiteLink} target="_blank">
-              <Icons.externalLink className="w-6 h-6 ml-4 text-muted-foreground hover:text-foreground " />
-            </Link>
-          </CustomTooltip>
-        )}
+        </Link> */}
       </div>
     </div>
   );

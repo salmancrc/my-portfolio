@@ -73,7 +73,7 @@ export default async function ExperienceDetailPage({
       content: (
         <AnimatedSection delay={0.3}>
           <div>
-            <h3 className="font-semibold mb-4 text-sm uppercase tracking-wide text-muted-foreground">
+            <h3 className="font-semibold my-4 text-sm uppercase tracking-wide text-muted-foreground">
               Role Summary
             </h3>
             <ul className="space-y-3">
@@ -97,7 +97,7 @@ export default async function ExperienceDetailPage({
       content: (
         <AnimatedSection delay={0.3}>
           <div>
-            <h3 className="font-semibold mb-4 text-sm uppercase tracking-wide text-muted-foreground">
+            <h3 className="font-semibold my-4 text-sm uppercase tracking-wide text-muted-foreground">
               Key Achievements
             </h3>
             <ul className="space-y-3">
@@ -121,7 +121,7 @@ export default async function ExperienceDetailPage({
       content: (
         <AnimatedSection delay={0.3}>
           <div>
-            <h3 className="font-semibold mb-4 text-sm uppercase tracking-wide text-muted-foreground">
+            <h3 className="font-semibold my-4 text-sm uppercase tracking-wide text-muted-foreground">
               Technologies & Skills
             </h3>
             <ChipContainer textArr={experience.skills} />

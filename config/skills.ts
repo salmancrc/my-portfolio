@@ -36,18 +36,18 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 5,
     icon: Icons.javascript,
   },
-  {
+  { 
     name: "HTML 5",
     description:
       "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 4,
+    rating: 5,
     icon: Icons.html5,
   },
   {
     name: "CSS 3",
     description:
       "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-    rating: 4,
+    rating: 5,
     icon: Icons.css3,
   },
   {
@@ -58,39 +58,46 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.tailwindcss,
   },
   {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-  {
     name: "Bootstrap",
     description:
       "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
+    rating: 5,
     icon: Icons.bootstrap,
-  },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
   },
   {
     name: "React Query",
     description:
       "Simplify data fetching and state management in React applications with ease.",
-    rating: 4,
+    rating: 5,
     icon: Icons.reactquery,
+  },
+  {
+    name: "Material UI",
+    description:
+      "Create stunning and responsive UIs with a popular React UI framework.",
+    rating: 5,
+    icon: Icons.mui,
   },
   {
     name: "Redux",
     description:
       "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
+    rating: 5,
     icon: Icons.redux,
+  },
+  {
+    name: "Angular",
+    description:
+      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
+    rating: 5,
+    icon: Icons.angular,
+  },
+    {
+    name: "Node.js",
+    description:
+      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
+    rating: 5,
+    icon: Icons.nodejs,
   },
   {
     name: "Express.js",
@@ -100,17 +107,31 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.express,
   },
   {
+    name: "MongoDB",
+    description:
+      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
+    rating: 5,
+    icon: Icons.mongodb,
+  },
+  {
+    name: "MySQL",
+    description:
+      "Manage and organize relational databases efficiently for data-driven applications.",
+    rating: 5,
+    icon: Icons.mysql,
+  },
+  {
     name: "Socket.io",
     description:
       "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
+    rating: 5,
     icon: Icons.socketio,
   },
   {
     name: "GraphQL",
     description:
       "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
+    rating: 5,
     icon: Icons.graphql,
   },
   // {
@@ -135,33 +156,12 @@ export const skillsUnsorted: skillsInterface[] = [
   //   icon: Icons.amazonaws,
   // },
   {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
-  },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
-  {
-    name: "MySQL",
+    name: "Netlify",
     description:
       "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
-    icon: Icons.mysql,
+    rating: 5,
+    icon: Icons.netlify,
   },
-  // {
-  //   name: "Netlify",
-  //   description:
-  //     "Manage and organize relational databases efficiently for data-driven applications.",
-  //   rating: 4,
-  //   icon: Icons.netlify,
-  // },
 ];
 
 export const skills = skillsUnsorted
